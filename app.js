@@ -1,9 +1,8 @@
 var connection = require('./database');
 
 function getSingleCheese(id) {
-    var sql =
-
-        `SELECT cheeses.id, brands.name AS brand, cheeses.name, strengths.name AS strength, cheeses.price, cheeses.weight FROM cheeses
+    var sql = `SELECT cheeses.id, brands.name AS brand, cheeses.name, strengths.name AS strength,
+    cheeses.price, cheeses.weight FROM cheeses
 
     INNER JOIN brands
     ON brands.id = cheeses.brand
