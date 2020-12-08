@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sirius-33/sql-to-node/issues"
   },
-  "homepage": "https://github.com/Sirius-33/sql-to-node#readme"
+  "homepage": "https://github.com/Sirius-33/sql-to-node#readme",
+  "dependencies": {
+    "mysql2": "^2.2.5"
+  }
 }
