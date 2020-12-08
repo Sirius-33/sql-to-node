@@ -10,7 +10,7 @@ function getSingleCheese(id) {
     INNER JOIN strengths
     ON strengths.id = cheeses.strength
 
-    WHERE cheeses.id = : id`;
+    WHERE cheeses.id = :id`;
 
     connection.query(sql, {
         id: id
@@ -42,3 +42,6 @@ function getAllCheeses() {
 /* getSingleCheese(1); */
 getAllCheeses();
 /* getSingleCheese(process.argv[2]); */
+
+// SQL står for?
+// Structured Query Language
